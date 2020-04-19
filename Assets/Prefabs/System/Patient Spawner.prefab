@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4854208068125548265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4854208068125548267}
+  - component: {fileID: 4854208068125548264}
+  m_Layer: 0
+  m_Name: Patient Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4854208068125548267
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4854208068125548265}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -12.27276, y: 30.737488, z: 31.322357}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4854208068125548264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4854208068125548265}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3692d871c1e24654a90d2e8c7f1eba0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambulanceCar: {fileID: 0}
+  npcSpawnPosition: {fileID: 0}
+  npcModels:
+  - {fileID: 8962857392682657489, guid: 67f19112ad0a53746898e0714ce3584c, type: 3}
+  minPatientSpawnCount: 1
+  maxPatientSpawnCount: 2
+  minDelayBetweenSpawns: 1
+  maxDelayBetweenSpawns: 2
+  npcSpawnCount: 0
